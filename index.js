@@ -22,14 +22,12 @@ console.log(arr);
 
 <!--Вводятся 2 числа найти ближайшие к числу 100-->
 
-let a = -56.6;
-let b = 80;
+let num1 = 13.4;
+let num2 = 100;
+let num3 = -40;
+let result = Math.max(num1, Math.min(num2, num3));
+console.log(result);
 
-if(a > b){
-  console.log(a);
-} else {
-  console.log(b);
-}
 <!--Даны делимое и делитель проверить делится ли без остатка, то true, если с остатком, то false, вывести остаток от деления-->
 let a = 3;
 let b = 2;
