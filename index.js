@@ -31,11 +31,11 @@ if(a > b){
   console.log(b);
 }
 <!--Даны делимое и делитель проверить делится ли без остатка, то true, если с остатком, то false, вывести остаток от деления-->
-let a = -10;
-let b = 2.3;
+let a = 3;
+let b = 2;
 let result = a % b;
 if (result != 0) {
-	console.log('false ' + result);
+ console.log('false ' + result);
 } else {
-	console.log('true: ' + (a / b));
+ console.log('true ');
 }
